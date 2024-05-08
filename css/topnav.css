@@ -1,0 +1,53 @@
+/* Top Navigation */
+.top-nav {
+  display: inline-block;
+  background: rgba(255, 255, 255, 0.831);
+  width: 100%;
+  border-bottom: 1px #e1e1e1 solid;
+}
+
+/* Social Icon */
+.social-top-nav {
+  float: left;
+  display: table;
+}
+.social-top-nav a {
+  display: table-cell;
+  padding: 5px;
+  text-align: center;
+  font-size: 13px;
+  height: 2em;
+  width: 2em;
+  line-height: 2em;
+  color: gray;
+  background-color: #f1f1f1;
+  transition-duration: 0.2s;
+}
+
+/* ======= End Social Icon ======= */
+
+/* Quick link */
+.top-nav-quicklink {
+  float: center;
+}
+.top-nav-quicklink li {
+  display: inline-block;
+  font-size: 1em;
+  color: gray;
+}
+.top-nav-quicklink li a {
+  display: block;
+  color: gray;
+  padding: 8px 15px;
+  transition-duration: 0.15s;
+}
+.top-nav-quicklink li a:hover {
+  padding-top: 4px;
+  border-bottom: 2px solid #000000e3;
+  color: #ff0000;
+}
+.top-nav-quicklink li a:hover i {
+  color: rgb(255, 30, 30);
+}
+/* ======= End quick link ======= */
+/* ======= End Top navigation ======= */
